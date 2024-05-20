@@ -1,4 +1,4 @@
-import Confirm from "../components/Confirm"
+import Confirm from "../components/Confirm/Confirm";
 
 const Home = () => {
   return (

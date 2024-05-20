@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 
 //Pages
 import Home from './routes/Home';
+import RegisterEnterTime from './routes/RegisterEnterTime';
+import RegiterExitTime from './routes/RegiterExitTime';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home/>
+      },
+      {
+        path: "enter-time",
+        element: <RegisterEnterTime/>
+      },
+      {
+        path: "exit-time",
+        element: <RegiterExitTime/>
       }
     ]
   }
